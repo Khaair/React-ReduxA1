@@ -1,7 +1,14 @@
 import React from 'react'
 
-export default function Counter() {
-  return (
-    <div>Counter</div>
-  )
+function Counter() {
+    return (
+        <div>
+            <h2>Counter : 0</h2>
+            <button>Increment</button>
+            <button>Decrement</button>
+        </div>
+    )
 }
+
+
+export default Counter
