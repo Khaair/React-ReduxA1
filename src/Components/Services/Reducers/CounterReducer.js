@@ -11,12 +11,12 @@ export default function(state = initialstate,action){
         case increment_value:
             return{
                 ...state,
-                count: state.count + 1
+                count: state.count + action.payload
             }
             case decrement_value:
                 return{
                     ...state,
-                    count: state.count - 1
+                    count: state.count - action.payload
                 }
                 default: 
 

@@ -6,8 +6,8 @@ const Counter = ({increment,decrement,count}) => {
     return (
         <div>
             <h2>Counter : {count}</h2>
-            <button onClick={()=>increment()}>Increment</button>
-            <button onClick={()=>decrement()}>Decrement</button>
+            <button onClick={()=>increment(5)}>Increment</button>
+            <button onClick={()=>decrement(1)}>Decrement</button>
         </div>
     )
 }
